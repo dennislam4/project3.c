@@ -6,7 +6,7 @@
 #              vice versa. The program repeats until the correct integer is guessed. The
 #              program will then print the amount of tries that it took.
 
-integer = int(input("Enter the integer for the player to guess."))
+integer = int(input("Enter the integer for the player to guess.\n"))
 print("Enter your guess.")
 tries = 1
 while True:
