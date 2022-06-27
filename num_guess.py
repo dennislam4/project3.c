@@ -8,7 +8,7 @@
 
 integer = int(input("Enter the integer for the player to guess."))
 print("Enter your guess.")
-tries = 0
+tries = 1
 while True:
     guess = input()
     guess = int(guess)
